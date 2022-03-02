@@ -93,9 +93,11 @@ networks:
 
 > docker-compose ps   
 
-### After creation
 ```
-# docker-compose ps
+### After creation
+
+```
+$ docker-compose ps
        Name                      Command               State                      Ports
 -----------------------------------------------------------------------------------------------------------
 registry_frontend_1   /bin/sh -c $START_SCRIPT         Up      0.0.0.0:443->443/tcp,:::443->443/tcp, 80/tcp
@@ -139,7 +141,11 @@ You can see the second image
 ```
 ## Conclusion
 Our private registry is now live with frontend.
-We can access it with https://<yourdomain name>/<reponame>/<imagename>:<tag>
+We can access it with https://registry.oncompute.com/repositories
+use your custom name over the top, 
+
+pull command
+docker pull registry:5000/bases/alpineimage:latest 
 
 ## Sample snaps
 
