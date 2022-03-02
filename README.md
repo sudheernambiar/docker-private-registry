@@ -149,10 +149,10 @@ docker pull registry:5000/bases/alpineimage:latest
 
 ## Sample snaps
 
-<center><img alt="auth-trigger" src="firefox_CqRyTV1ZYs.png"> </img></center>
-<center><img alt="auth-trigger" src="firefox_un8ykpix0o.png"> </img></center>
-<center><img alt="auth-trigger" src="firefox_LUegi7SjaD.png"> </img></center>
-
+<center><img alt="auth-trigger" src="dockerrepo.png"> </img></center>
+<center><img alt="auth-trigger" src="repositories.png"> </img></center>
+<center><img alt="auth-trigger" src="catalog.png"> </img></center>
+<center><img alt="auth-trigger" src="catalog2.png"> </img></center>
 ## Notes:
 * Sometimes there may be certificate loading issue. Use the ca_bundle and certificate file to merge as one with server.crt (certificate contents on top of bundle contents and save as server.crt)
 #### ⚙️ Connect with Me
